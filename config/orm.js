@@ -37,3 +37,5 @@ var orm = {
     };
 
     module.exports = orm;
+
+    orm.updateOne("burgers", {devoured: 1}, {id: 1}, result => console.log(result));

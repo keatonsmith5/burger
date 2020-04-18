@@ -22,9 +22,9 @@ $(() => {
         // Make sure to preventDefault on a submit event.
         event.preventDefault();
         const id = $(this).data("id")
+        console.log(id);
 
         const eatBurger = {
-        
             devoured: 1
         };
         // Send the POST request.
